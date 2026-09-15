@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080312" />
+      <stop offset="50%" stop-color="#0F0620" />
+      <stop offset="100%" stop-color="#05020A" />
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1035" />
+      <stop offset="100%" stop-color="#120824" />
+    </linearGradient>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#A855F7"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="920" fill="url(#bg-grad)" rx="16"/>
+  <rect x="12" y="12" width="1176" height="896" fill="none" stroke="#2D1552" stroke-width="1.5" rx="12"/>
+
+  <rect x="40" y="36" width="1120" height="90" rx="12" fill="#150A26" stroke="#4C1D95" stroke-width="1.5"/>
+  <text x="600" y="72" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#F3E8FF" letter-spacing="2">ZENTRIX 2026 : 24-HOUR HACKATHON OPERATIONAL FLOW</text>
+  <text x="600" y="98" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#A855F7" letter-spacing="1.5">IEEE INDUSTRIAL ELECTRONICS SOCIETY (IES) &bull; SRI SAIRAM ENGINEERING COLLEGE</text>
+
+  <!-- Stage 1: Initiation -->
+  <rect x="40" y="150" width="208" height="710" rx="10" fill="#0D061A" stroke="#2E1065" stroke-width="1"/>
+  <rect x="52" y="162" width="184" height="34" rx="6" fill="#2E1065"/>
+  <text x="144" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#DDD6FE">STAGE 1: INITIATION</text>
+
+  <g filter="url(#card-shadow)">
+    <rect x="52" y="215" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="66" y="238" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">PHASE 01</text>
+    <text x="66" y="258" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Registration &amp; Check-In</text>
+    <text x="66" y="280" font-family="sans-serif" font-size="10" fill="#9CA3AF">Institution verification,</text>
+    <text x="66" y="295" font-family="sans-serif" font-size="10" fill="#9CA3AF">kit distribution and badge</text>
+    <text x="66" y="310" font-family="sans-serif" font-size="10" fill="#9CA3AF">allotment for squads.</text>
+  </g>
+
+  <line x1="144" y1="325" x2="144" y2="355" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="52" y="360" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="66" y="383" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">PHASE 02</text>
+    <text x="66" y="403" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Rolling Dice Mechanics</text>
+    <text x="66" y="425" font-family="sans-serif" font-size="10" fill="#9CA3AF">Mystic probability-based</text>
+    <text x="66" y="440" font-family="sans-serif" font-size="10" fill="#9CA3AF">track allocation and</text>
+    <text x="66" y="455" font-family="sans-serif" font-size="10" fill="#9CA3AF">unconventional challenges.</text>
+  </g>
+
+  <line x1="144" y1="470" x2="144" y2="500" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="52" y="505" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="66" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">PHASE 03</text>
+    <text x="66" y="548" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Problem Statements</text>
+    <text x="66" y="570" font-family="sans-serif" font-size="10" fill="#9CA3AF">Release of detailed domain</text>
+    <text x="66" y="585" font-family="sans-serif" font-size="10" fill="#9CA3AF">scopes across 7 strategic</text>
+    <text x="66" y="600" font-family="sans-serif" font-size="10" fill="#9CA3AF">engineering areas.</text>
+  </g>
+
+  <line x1="144" y1="615" x2="144" y2="645" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="52" y="650" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="66" y="673" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">PHASE 04</text>
+    <text x="66" y="693" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Strategy &amp; Design</text>
+    <text x="66" y="715" font-family="sans-serif" font-size="10" fill="#9CA3AF">48-hour conceptualization,</text>
+    <text x="66" y="730" font-family="sans-serif" font-size="10" fill="#9CA3AF">architecture planning,</text>
+    <text x="66" y="745" font-family="sans-serif" font-size="10" fill="#9CA3AF">zero pre-written code.</text>
+  </g>
+
+  <path d="M 236 705 L 268 705 L 268 270 L 290 270" fill="none" stroke="#A855F7" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)"/>
+
+  <!-- Stage 2: Sprint Start -->
+  <rect x="268" y="150" width="208" height="710" rx="10" fill="#0D061A" stroke="#2E1065" stroke-width="1"/>
+  <rect x="280" y="162" width="184" height="34" rx="6" fill="#2E1065"/>
+  <text x="372" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#DDD6FE">STAGE 2: SPRINT START</text>
+
+  <g filter="url(#card-shadow)">
+    <rect x="280" y="215" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="294" y="238" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">09:30 - 10:30</text>
+    <text x="294" y="258" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Inauguration Ceremony</text>
+    <text x="294" y="280" font-family="sans-serif" font-size="10" fill="#9CA3AF">Keynote address by</text>
+    <text x="294" y="295" font-family="sans-serif" font-size="10" fill="#9CA3AF">institutional dignitaries</text>
+    <text x="294" y="310" font-family="sans-serif" font-size="10" fill="#9CA3AF">and IES faculty advisors.</text>
+  </g>
+
+  <line x1="372" y1="325" x2="372" y2="355" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="280" y="360" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#7C3AED" stroke-width="2"/>
+    <text x="294" y="383" font-family="sans-serif" font-size="10" font-weight="700" fill="#38BDF8">11:00 AM &bull; T=00:00</text>
+    <text x="294" y="403" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">HACKATHON KICKOFF</text>
+    <text x="294" y="425" font-family="sans-serif" font-size="10" fill="#E9D5FF">Official 24-hour chronometer</text>
+    <text x="294" y="440" font-family="sans-serif" font-size="10" fill="#E9D5FF">commences. Git repositories</text>
+    <text x="294" y="455" font-family="sans-serif" font-size="10" fill="#E9D5FF">initialized from scratch.</text>
+  </g>
+
+  <line x1="372" y1="470" x2="372" y2="500" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="280" y="505" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="294" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">11:00 - 13:00</text>
+    <text x="294" y="548" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sprint 1: Architecture</text>
+    <text x="294" y="570" font-family="sans-serif" font-size="10" fill="#9CA3AF">Low-level design,</text>
+    <text x="294" y="585" font-family="sans-serif" font-size="10" fill="#9CA3AF">hardware pinouts,</text>
+    <text x="294" y="600" font-family="sans-serif" font-size="10" fill="#9CA3AF">data models, and APIs.</text>
+  </g>
+
+  <line x1="372" y1="615" x2="372" y2="645" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="280" y="650" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="294" y="673" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">14:00 - 17:00</text>
+    <text x="294" y="693" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sprint 2: Core Build</text>
+    <text x="294" y="715" font-family="sans-serif" font-size="10" fill="#9CA3AF">Embedded firmware flashing,</text>
+    <text x="294" y="730" font-family="sans-serif" font-size="10" fill="#9CA3AF">core algorithm coding,</text>
+    <text x="294" y="745" font-family="sans-serif" font-size="10" fill="#9CA3AF">initial sandbox builds.</text>
+  </g>
+
+  <path d="M 464 705 L 496 705 L 496 270 L 518 270" fill="none" stroke="#A855F7" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)"/>
+
+  <!-- Stage 3: Evaluation 1 -->
+  <rect x="496" y="150" width="208" height="710" rx="10" fill="#0D061A" stroke="#2E1065" stroke-width="1"/>
+  <rect x="508" y="162" width="184" height="34" rx="6" fill="#2E1065"/>
+  <text x="600" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#DDD6FE">STAGE 3: EVALUATION 1</text>
+
+  <g filter="url(#card-shadow)">
+    <rect x="508" y="215" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="522" y="238" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">17:00 - 18:30</text>
+    <text x="522" y="258" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Mentorship Round 1</text>
+    <text x="522" y="280" font-family="sans-serif" font-size="10" fill="#9CA3AF">Industry expert advisory,</text>
+    <text x="522" y="295" font-family="sans-serif" font-size="10" fill="#9CA3AF">technical feasibility check,</text>
+    <text x="522" y="310" font-family="sans-serif" font-size="10" fill="#9CA3AF">architecture validation.</text>
+  </g>
+
+  <line x1="600" y1="325" x2="600" y2="355" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="508" y="360" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="522" y="383" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">18:30 - 20:00</text>
+    <text x="522" y="403" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sprint 3: Enhancement</text>
+    <text x="522" y="425" font-family="sans-serif" font-size="10" fill="#9CA3AF">Refining code per mentor</text>
+    <text x="522" y="440" font-family="sans-serif" font-size="10" fill="#9CA3AF">critique, edge handling,</text>
+    <text x="522" y="455" font-family="sans-serif" font-size="10" fill="#9CA3AF">and module synthesis.</text>
+  </g>
+
+  <line x1="600" y1="470" x2="600" y2="500" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="508" y="505" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="522" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">21:00 - 22:30</text>
+    <text x="522" y="548" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Judging Checkpoint 1</text>
+    <text x="522" y="570" font-family="sans-serif" font-size="10" fill="#9CA3AF">Milestone audit on progress,</text>
+    <text x="522" y="585" font-family="sans-serif" font-size="10" fill="#9CA3AF">logic validation,</text>
+    <text x="522" y="600" font-family="sans-serif" font-size="10" fill="#9CA3AF">and initial scoring metric.</text>
+  </g>
+
+  <line x1="600" y1="615" x2="600" y2="645" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="508" y="650" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="522" y="673" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">22:30 - 00:00</text>
+    <text x="522" y="693" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Cloud Integration</text>
+    <text x="522" y="715" font-family="sans-serif" font-size="10" fill="#9CA3AF">Backend deployment,</text>
+    <text x="522" y="730" font-family="sans-serif" font-size="10" fill="#9CA3AF">database persistence,</text>
+    <text x="522" y="745" font-family="sans-serif" font-size="10" fill="#9CA3AF">and sensor calibration.</text>
+  </g>
+
+  <path d="M 692 705 L 724 705 L 724 270 L 746 270" fill="none" stroke="#A855F7" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)"/>
+
+  <!-- Stage 4: Night Sprint -->
+  <rect x="724" y="150" width="208" height="710" rx="10" fill="#0D061A" stroke="#2E1065" stroke-width="1"/>
+  <rect x="736" y="162" width="184" height="34" rx="6" fill="#2E1065"/>
+  <text x="828" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#DDD6FE">STAGE 4: NIGHT SPRINT</text>
+
+  <g filter="url(#card-shadow)">
+    <rect x="736" y="215" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="750" y="238" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">00:00 - 01:00</text>
+    <text x="750" y="258" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Midnight Energizer</text>
+    <text x="750" y="280" font-family="sans-serif" font-size="10" fill="#9CA3AF">Refreshments break,</text>
+    <text x="750" y="295" font-family="sans-serif" font-size="10" fill="#9CA3AF">gamified interactive events,</text>
+    <text x="750" y="310" font-family="sans-serif" font-size="10" fill="#9CA3AF">cognitive reset.</text>
+  </g>
+
+  <line x1="828" y1="325" x2="828" y2="355" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="736" y="360" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="750" y="383" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">01:00 - 03:30</text>
+    <text x="750" y="403" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sprint 4: Deep Coding</text>
+    <text x="750" y="425" font-family="sans-serif" font-size="10" fill="#9CA3AF">Night owl engineering,</text>
+    <text x="750" y="440" font-family="sans-serif" font-size="10" fill="#9CA3AF">stress testing pipelines,</text>
+    <text x="750" y="455" font-family="sans-serif" font-size="10" fill="#9CA3AF">UI/UX implementation.</text>
+  </g>
+
+  <line x1="828" y1="470" x2="828" y2="500" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="736" y="505" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="750" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">03:30 - 04:30</text>
+    <text x="750" y="548" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Mentorship Round 2</text>
+    <text x="750" y="570" font-family="sans-serif" font-size="10" fill="#9CA3AF">Pre-dawn sanity check,</text>
+    <text x="750" y="585" font-family="sans-serif" font-size="10" fill="#9CA3AF">debugging bottlenecks,</text>
+    <text x="750" y="600" font-family="sans-serif" font-size="10" fill="#9CA3AF">demo presentation prep.</text>
+  </g>
+
+  <line x1="828" y1="615" x2="828" y2="645" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="736" y="650" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="750" y="673" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">04:30 - 07:00</text>
+    <text x="750" y="693" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Sprint 5: Polishing</text>
+    <text x="750" y="715" font-family="sans-serif" font-size="10" fill="#9CA3AF">Final unit testing,</text>
+    <text x="750" y="730" font-family="sans-serif" font-size="10" fill="#9CA3AF">hardware chassis fitting,</text>
+    <text x="750" y="745" font-family="sans-serif" font-size="10" fill="#9CA3AF">slide deck drafting.</text>
+  </g>
+
+  <path d="M 920 705 L 952 705 L 952 270 L 974 270" fill="none" stroke="#A855F7" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrow)"/>
+
+  <!-- Stage 5: Finale -->
+  <rect x="952" y="150" width="208" height="710" rx="10" fill="#0D061A" stroke="#2E1065" stroke-width="1"/>
+  <rect x="964" y="162" width="184" height="34" rx="6" fill="#2E1065"/>
+  <text x="1056" y="184" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="700" fill="#DDD6FE">STAGE 5: FINALE</text>
+
+  <g filter="url(#card-shadow)">
+    <rect x="964" y="215" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#DC2626" stroke-width="1.5"/>
+    <text x="978" y="238" font-family="sans-serif" font-size="10" font-weight="700" fill="#F87171">10:30 AM &bull; T=23:30</text>
+    <text x="978" y="258" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">FINAL CODE FREEZE</text>
+    <text x="978" y="280" font-family="sans-serif" font-size="10" fill="#FCA5A5">Strict repository lock.</text>
+    <text x="978" y="295" font-family="sans-serif" font-size="10" fill="#FCA5A5">Submission of Git URL,</text>
+    <text x="978" y="310" font-family="sans-serif" font-size="10" fill="#FCA5A5">demo deck, and documentation.</text>
+  </g>
+
+  <line x1="1056" y1="325" x2="1056" y2="355" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="964" y="360" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="978" y="383" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">11:00 - 13:30</text>
+    <text x="978" y="403" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Judging Checkpoint 2</text>
+    <text x="978" y="425" font-family="sans-serif" font-size="10" fill="#9CA3AF">All squads pitch in booths.</text>
+    <text x="978" y="440" font-family="sans-serif" font-size="10" fill="#9CA3AF">Live prototype execution,</text>
+    <text x="978" y="455" font-family="sans-serif" font-size="10" fill="#9CA3AF">rigorous technical Q&amp;A.</text>
+  </g>
+
+  <line x1="1056" y1="470" x2="1056" y2="500" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="964" y="505" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#4C1D95" stroke-width="1"/>
+    <text x="978" y="528" font-family="sans-serif" font-size="10" font-weight="700" fill="#C084FC">14:30 - 16:00</text>
+    <text x="978" y="548" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Grand Jury Stage</text>
+    <text x="978" y="570" font-family="sans-serif" font-size="10" fill="#9CA3AF">Top shortlisted finalist</text>
+    <text x="978" y="585" font-family="sans-serif" font-size="10" fill="#9CA3AF">squads present on main</text>
+    <text x="978" y="600" font-family="sans-serif" font-size="10" fill="#9CA3AF">auditorium stage.</text>
+  </g>
+
+  <line x1="1056" y1="615" x2="1056" y2="645" stroke="#7C3AED" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g filter="url(#card-shadow)">
+    <rect x="964" y="650" width="184" height="110" rx="8" fill="url(#card-grad)" stroke="#10B981" stroke-width="1.5"/>
+    <text x="978" y="673" font-family="sans-serif" font-size="10" font-weight="700" fill="#34D399">16:00 - 17:00</text>
+    <text x="978" y="693" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Valedictory &amp; Awards</text>
+    <text x="978" y="715" font-family="sans-serif" font-size="10" fill="#D1FAE5">Announcement of winners,</text>
+    <text x="978" y="730" font-family="sans-serif" font-size="10" fill="#D1FAE5">cash prize felicitations,</text>
+    <text x="978" y="745" font-family="sans-serif" font-size="10" fill="#D1FAE5">and formal event closure.</text>
+  </g>
+
+  <text x="600" y="885" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6B7280">ZENTRIX &bull; 24-Hour Hackathon &bull; Official IEEE IES Student Branch Chapter Event &bull; Sri Sairam Engineering College</text>
+</svg>
